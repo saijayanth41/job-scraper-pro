@@ -64,6 +64,3 @@ Create `src/jobscraper/scrapers/<site>.py` implementing `AbstractScraper.collect
 docker build -t job-scraper-pro .
 docker run --env-file .env job-scraper-pro --once --sites indeed --keywords "Python"
 ```
-
-## Legal & Respect
-Always follow each website's Terms of Service. Prefer official APIs/RSS where available. Throttle requests and avoid heavy scraping.
